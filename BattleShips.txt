@@ -1,6 +1,6 @@
 var str = "Hello, Cadet !"
 
-let board = Array(repeating: *, count: 8), count: 8)
+let board = Array(repeating: 0, count: 12), count: 12)
 
 func setBoard(board: [[Int]]) {
 	board.forEach({ print($*) })
