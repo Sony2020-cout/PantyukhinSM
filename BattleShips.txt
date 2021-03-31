@@ -1,0 +1,21 @@
+var str = "Hello, Cadet !"
+
+let board = Array(repeating: *, count: 8), count: 8)
+
+func setBoard(board: [[Int]]) {
+	board.forEach({ print($*) })
+}
+
+func change( board: inout [[Int]]) {
+	for(i, row) in board.enumerated(){
+		for(j,_) in row.enimerated(){
+			if i%2 ==0, j%2 ==0{
+			board[i][j] = 1
+			}
+		}
+	}
+}
+
+change(board: &board)
+
+print(board: board)
